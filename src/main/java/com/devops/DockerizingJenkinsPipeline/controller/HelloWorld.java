@@ -8,6 +8,6 @@ public class HelloWorld {
 	
 	@RequestMapping("/")
 	public String hello() {
-		return "Docker is running Successfully.For incremental changes also build is successful";
+		return "Docker is running Successfully.For incremental changes also build is successful.";
 	}
 }
